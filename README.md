@@ -54,6 +54,10 @@ python scripts/network/ssl_check.py example.com
 - **API Security Tester** - REST/GraphQL/WebSocket security testing
 - **OAuth Scanner** - OAuth misconfiguration detection
 - **Race Condition Tester** - Timing-based vulnerability testing
+- **Advanced Parameter Fuzzer** - Parameter pollution, type confusion, prototype pollution
+- **IDOR Tester** - Insecure Direct Object Reference vulnerability detection
+- **Business Logic Scanner** - Business logic flaw detection and authorization bypass
+- **HTTP Smuggling Tester** - HTTP request smuggling vulnerability testing
 
 ### 🔐 Cryptographic Tools
 - **Hash Generator** - Multiple hash algorithm support
@@ -99,10 +103,10 @@ python scripts/web/sql_injection_tester.py -u "https://example.com/search" -p "q
 | Category | Scripts | Status |
 |----------|---------|--------|
 | Network Security | 3 | ✅ Active |
-| Web Security | 5 | ✅ Active |
+| Web Security | 9 | ✅ Active |
 | Cryptographic | 1 | ✅ Active |
 | Automation | 2 | ✅ Active |
-| **Total** | **11** | **✅ All Working** |
+| **Total** | **15** | **✅ All Working** |
 
 ## 🔧 Installation
 
@@ -174,6 +178,18 @@ python scripts/web/race_condition_tester.py https://example.com/api/purchase
 
 # Backup and sensitive file discovery
 python scripts/network/backup_scanner.py example.com
+
+# Advanced parameter fuzzing (JUICY!)
+python scripts/web/advanced_parameter_fuzzer.py https://example.com/api
+
+# IDOR vulnerability testing (VERY JUICY!)
+python scripts/web/idor_tester.py https://example.com/user/123
+
+# Business logic flaw detection (EXTREMELY JUICY!)
+python scripts/web/business_logic_scanner.py https://example.com
+
+# HTTP request smuggling testing (ULTRA JUICY!)
+python scripts/web/http_smuggling_tester.py https://example.com
 ```
 
 ## 🛡️ Security Features
