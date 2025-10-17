@@ -34,22 +34,21 @@ python scripts/network/ssl_check.py example.com
 ### 🌐 Network Security
 - **SSL Certificate Checker** - Comprehensive SSL/TLS certificate validation
 - **Port Scanner** - Fast and efficient port scanning
-- **Network Mapper** - Network topology discovery
+- **Backup Scanner** - Find exposed database backups and sensitive files
 
 ### 🔍 Web Security
 - **SQL Injection Tester** - Automated SQL injection detection
-- **XSS Scanner** - Cross-site scripting vulnerability detection
-- **Header Security Analyzer** - Security header validation
+- **Advanced Vulnerability Scanner** - Professional-grade vulnerability discovery
+- **API Security Tester** - REST/GraphQL/WebSocket security testing
+- **OAuth Scanner** - OAuth misconfiguration detection
+- **Race Condition Tester** - Timing-based vulnerability testing
 
 ### 🔐 Cryptographic Tools
 - **Hash Generator** - Multiple hash algorithm support
-- **Password Strength Analyzer** - Password security assessment
-- **Encryption Utilities** - File and data encryption tools
 
 ### 🤖 Automation Scripts
 - **Security Report Generator** - Automated security reporting
-- **Vulnerability Scanner** - Multi-vector vulnerability detection
-- **Compliance Checker** - Security compliance validation
+- **Repository Summary** - Repository statistics and capabilities
 
 ## 🛠️ Available Scripts
 
@@ -87,11 +86,11 @@ python scripts/web/sql_injection_tester.py -u "https://example.com/search" -p "q
 
 | Category | Scripts | Status |
 |----------|---------|--------|
-| Network Security | 5 | ✅ Active |
-| Web Security | 4 | ✅ Active |
-| Cryptographic | 3 | ✅ Active |
-| Automation | 6 | ✅ Active |
-| **Total** | **18** | **✅ All Working** |
+| Network Security | 3 | ✅ Active |
+| Web Security | 5 | ✅ Active |
+| Cryptographic | 1 | ✅ Active |
+| Automation | 2 | ✅ Active |
+| **Total** | **11** | **✅ All Working** |
 
 ## 🔧 Installation
 
@@ -145,6 +144,24 @@ scanner = WebScanner("https://example.com")
 vulnerabilities = scanner.scan()
 for vuln in vulnerabilities:
     print(f"Found: {vuln['type']} at {vuln['url']}")
+```
+
+### Advanced Vulnerability Scanning
+```bash
+# Professional-grade vulnerability discovery
+python scripts/web/advanced_vulnerability_scanner.py example.com
+
+# API security testing
+python scripts/web/api_security_tester.py https://api.example.com
+
+# OAuth misconfiguration detection
+python scripts/web/oauth_scanner.py example.com
+
+# Race condition testing
+python scripts/web/race_condition_tester.py https://example.com/api/purchase
+
+# Backup and sensitive file discovery
+python scripts/network/backup_scanner.py example.com
 ```
 
 ## 🛡️ Security Features
