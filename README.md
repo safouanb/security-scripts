@@ -65,6 +65,8 @@ python scripts/network/ssl_check.py example.com
 ### 🤖 Automation Scripts
 - **Security Report Generator** - Automated security reporting
 - **Repository Summary** - Repository statistics and capabilities
+- **Elite Attack Framework** - Professional-grade offensive security framework with stealth techniques
+- **NBA Vulnerability Exploiter** - Advanced exploitation techniques for NBA bug bounty program
 
 ## 🛠️ Available Scripts
 
@@ -105,8 +107,8 @@ python scripts/web/sql_injection_tester.py -u "https://example.com/search" -p "q
 | Network Security | 3 | ✅ Active |
 | Web Security | 9 | ✅ Active |
 | Cryptographic | 1 | ✅ Active |
-| Automation | 2 | ✅ Active |
-| **Total** | **15** | **✅ All Working** |
+| Automation | 4 | ✅ Active |
+| **Total** | **17** | **✅ All Working** |
 
 ## 🔧 Installation
 
@@ -219,28 +221,79 @@ python scripts/web/http_smuggling_tester.py https://example.com
 - **Firewall configuration** for outbound connections
 - **VPN support** for secure scanning
 
-## 🎓 Learning Path
+## 🏆 Essential Security Repositories
 
-### 🥉 Beginner (0-6 months)
-1. **Linux Fundamentals** - Master command line and basic system administration
-2. **Networking Basics** - Understand TCP/IP, protocols, and network architecture
-3. **Web Technologies** - HTML, CSS, JavaScript, and web application basics
-4. **Basic Tools** - Nmap, Wireshark, Burp Suite Community
-5. **Scripting** - Python, Bash for automation
+### 🔥 Must-Have Collections
+- **[Awesome Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)** - The ultimate curated list of hacking resources
+- **[Awesome OSINT](https://github.com/jivoi/awesome-osint)** - OSINT tools and resources for intelligence gathering
+- **[Awesome Pentest](https://github.com/enaqx/awesome-pentest)** - Penetration testing resources and tools
+- **[Awesome Security](https://github.com/sbilly/awesome-security)** - General security resources and tools
+- **[Awesome Bug Bounty](https://github.com/djadmin/awesome-bug-bounty)** - Bug bounty hunting resources and writeups
 
-### 🥈 Intermediate (6-18 months)
-1. **Advanced Networking** - Deep dive into protocols and network security
-2. **Web Application Security** - OWASP Top 10, injection attacks, authentication bypass
-3. **Vulnerability Assessment** - Manual and automated testing
-4. **API Security** - REST/GraphQL security testing
-5. **Cryptography** - Hash functions, encryption, digital signatures
+### 🛠️ Professional Tools
+- **[Nmap](https://github.com/nmap/nmap)** - Network mapper and port scanner
+- **[Metasploit](https://github.com/rapid7/metasploit-framework)** - Penetration testing framework
+- **[Burp Suite](https://portswigger.net/burp)** - Web application security testing
+- **[OWASP ZAP](https://github.com/zaproxy/zaproxy)** - Free web application security scanner
+- **[SQLMap](https://github.com/sqlmapproject/sqlmap)** - Automatic SQL injection tool
 
-### 🥇 Advanced (18+ months)
-1. **Exploit Development** - Buffer overflows, ROP, shellcode
-2. **Advanced OSINT** - Deep web, dark web, advanced techniques
-3. **Red Team Operations** - Full-spectrum attack simulation
-4. **Malware Analysis** - Reverse engineering and threat hunting
-5. **Cloud Security** - AWS, Azure, GCP security assessment
+### 🔍 OSINT & Reconnaissance
+- **[theHarvester](https://github.com/laramies/theHarvester)** - Email, subdomain, and people names harvester
+- **[Sherlock](https://github.com/sherlock-project/sherlock)** - Find usernames across social networks
+- **[Recon-ng](https://github.com/lanmaster53/recon-ng)** - Modular web reconnaissance framework
+- **[SpiderFoot](https://github.com/smicallef/spiderfoot)** - OSINT automation tool
+- **[OSINT-SPY](https://github.com/SharadKumar97/OSINT-SPY)** - All-in-one OSINT tool
+- **[Holehe](https://github.com/megadose/holehe)** - Check if email is attached to an account
+- **[PhoneInfoga](https://github.com/sundowndev/phoneinfoga)** - Phone number OSINT reconnaissance
+
+### 🌐 Web Security
+- **[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)** - Web application security payloads
+- **[SecLists](https://github.com/danielmiessler/SecLists)** - Security testing wordlists and payloads
+- **[FuzzDB](https://github.com/fuzzdb-project/fuzzdb)** - Attack patterns and resource database
+- **[WSTG](https://github.com/OWASP/wstg)** - Web Security Testing Guide
+- **[XSS Payloads](https://github.com/payloadbox/xss-payload-list)** - XSS attack payloads
+
+### 🔐 Cryptography & Steganography
+- **[John the Ripper](https://github.com/openwall/john)** - Password cracking tool
+- **[Hashcat](https://github.com/hashcat/hashcat)** - Advanced password recovery
+- **[Steghide](https://github.com/StefanoDeVuono/steghide)** - Steganography tool
+- **[Cryptography](https://github.com/pyca/cryptography)** - Python cryptography library
+- **[Fernet](https://github.com/fernet/spec)** - Symmetric encryption specification
+
+### 🚀 Exploitation & Post-Exploitation
+- **[Empire](https://github.com/EmpireProject/Empire)** - PowerShell and Python post-exploitation agent
+- **[Cobalt Strike](https://www.cobaltstrike.com/)** - Commercial penetration testing framework
+- **[Mimikatz](https://github.com/gentilkiwi/mimikatz)** - Windows credential extraction
+- **[PowerSploit](https://github.com/PowerShellMafia/PowerSploit)** - PowerShell exploitation framework
+- **[BloodHound](https://github.com/BloodHoundAD/BloodHound)** - Active Directory attack path analysis
+
+### ☁️ Cloud Security
+- **[Pacu](https://github.com/RhinoSecurityLabs/pacu)** - AWS exploitation framework
+- **[CloudMapper](https://github.com/duo-labs/cloudmapper)** - Cloud security visualization
+- **[Scout Suite](https://github.com/nccgroup/ScoutSuite)** - Multi-cloud security auditing
+- **[CloudSploit](https://github.com/aquasecurity/cloudsploit)** - Cloud security posture management
+- **[Prowler](https://github.com/toniblyx/prowler)** - AWS security best practices assessment
+
+### 📱 Mobile Security
+- **[MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)** - Mobile security testing framework
+- **[Frida](https://github.com/frida/frida)** - Dynamic instrumentation toolkit
+- **[Objection](https://github.com/sensepost/objection)** - Runtime mobile exploration
+- **[iNalyzer](https://github.com/OWASP/iNalyzer)** - iOS security analysis
+- **[QARK](https://github.com/linkedin/qark)** - Quick Android Review Kit
+
+### 🔬 Malware Analysis
+- **[Cuckoo Sandbox](https://github.com/cuckoosandbox/cuckoo)** - Automated malware analysis
+- **[YARA](https://github.com/VirusTotal/yara)** - Pattern matching engine
+- **[Capa](https://github.com/mandiant/capa)** - Capability analysis tool
+- **[Ghidra](https://github.com/NationalSecurityAgency/ghidra)** - Software reverse engineering framework
+- **[Radare2](https://github.com/radareorg/radare2)** - Reverse engineering framework
+
+### 🎯 Specialized Tools
+- **[Shodan](https://github.com/achillean/shodan-python)** - Internet-connected device search
+- **[Censys](https://github.com/censys/censys-python)** - Internet scanning and search
+- **[Masscan](https://github.com/robertdavidgraham/masscan)** - Ultra-fast port scanner
+- **[Zmap](https://github.com/zmap/zmap)** - Fast network scanner
+- **[Nuclei](https://github.com/projectdiscovery/nuclei)** - Vulnerability scanner
 
 ## 🤝 Contributing
 
